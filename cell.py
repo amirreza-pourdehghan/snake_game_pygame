@@ -1,5 +1,6 @@
-import pygame, consts
-
+import consts
+from pygame.draw import rect
+from pygame.display import update
 
 class Cell:
     def __init__(self, surface, sx, sy, color=consts.back_color):
