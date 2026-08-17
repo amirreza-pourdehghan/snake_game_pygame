@@ -12,7 +12,7 @@ The game supports multiple players, configurable controls, obstacles, fruits, an
 - 🧱 Obstacles and blocked cells
 - 🔄 Screen wrap-around movement
 - 🎮 Custom keyboard controls for each player
-- ⚙️ Configurable game settings with `config.json`
+- ⚙️ Configurable game settings with `data/config.json`
 - 🧩 Object-Oriented Programming (OOP)
 
 ## 🛠️ Technologies
@@ -27,12 +27,14 @@ The game supports multiple players, configurable controls, obstacles, fruits, an
 ```text
 the-snake-game/
 │
+├── data/
+│   └── config.json
+│
 ├── main.py
 ├── snake.py
 ├── game_manager.py
 ├── cell.py
 ├── consts.py
-├── config.json
 └── README.md
 ```
 
@@ -41,7 +43,7 @@ the-snake-game/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/amirreza-pourdehghan/the-snake-game.git
+git clone https://github.com/your-username/the-snake-game.git
 ```
 
 ### 2. Navigate to the project directory
@@ -84,7 +86,11 @@ python main.py
 
 ## ⚙️ Configuration
 
-The game settings are stored in `config.json`.
+The game settings are stored in:
+
+```text
+data/config.json
+```
 
 You can customize:
 
@@ -127,8 +133,8 @@ The project is organized into several components:
 - `snake.py` — Contains the `Snake` class and movement logic.
 - `game_manager.py` — Manages the game board, snakes, obstacles, turns, and fruit generation.
 - `cell.py` — Represents individual cells on the game board.
-- `consts.py` — Loads configuration values from `config.json`.
-- `config.json` — Stores customizable game settings.
+- `consts.py` — Loads configuration values from `data/config.json`.
+- `data/config.json` — Stores customizable game settings.
 
 ## 📝 Notes
 
