@@ -1,64 +1,23 @@
-# 🐍 The Snake Game
+# 🐍 Snake Game
 
-A customizable Snake Game built with Python and Pygame.
+A simple Snake game made with **Python** and **Pygame**.
 
-The game supports multiple players, configurable controls, obstacles, fruits, and dynamic game settings through a JSON configuration file.
+## Features
 
-## ✨ Features
+* Classic Snake gameplay
+* Simple and modular code
+* Configurable settings using `config.json`
+* Keyboard controls
 
-- 🐍 Snake movement and growth
-- 👥 Two-player support
-- 🍎 Fruit spawning
-- 🧱 Obstacles and blocked cells
-- 🔄 Screen wrap-around movement
-- 🎮 Custom keyboard controls for each player
-- ⚙️ Configurable game settings with `data/config.json`
-- 🧩 Object-Oriented Programming (OOP)
-
-## 🛠️ Technologies
-
-- Python 3
-- Pygame
-- Object-Oriented Programming (OOP)
-- JSON
-
-## 📁 Project Structure
-
-```text
-the-snake-game/
-│
-├── data/
-│   └── config.json
-│
-├── main.py
-├── snake.py
-├── game_manager.py
-├── cell.py
-├── consts.py
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
+## Installation
 
 ```bash
-git clone https://github.com/your-username/snake_game_pygame.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
+git clone https://github.com/amirreza-pourdehghan/snake_game_pygame.git
 cd snake_game_pygame
-```
-
-### 3. Install Pygame
-
-```bash
 pip install pygame
 ```
 
-### 4. Run the game
+Run the game:
 
 ```bash
 python main.py

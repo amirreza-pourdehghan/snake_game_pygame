@@ -1,7 +1,7 @@
-import json
+from json import loads
 
-f = open("config.json")
-data = json.loads(f.read())
+f = open("snake_game_pygame/data/config.json")
+data = loads(f.read())
 f.close()
 
 back_color = data['back_color']
